@@ -35,7 +35,7 @@ test("VTiger Creating Contact", async({page})=>{
     await page.locator("//a[text()='Sign Out']").click()
 })
 
-test.only("VTiger Creating Contact with Test Data", async({page})=>{
+test("VTiger Creating Contact with Test Data", async({page})=>{
     //Opening the VTiger app in browser
     await page.goto("http://localhost:8888/index.php?action=Login&module=Users")
     //Entering the Username
