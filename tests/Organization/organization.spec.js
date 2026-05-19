@@ -66,7 +66,7 @@ test("VTiger Creating Organisation with Industry and Type", async({page})=>{
     await page.locator("//a[text()='Sign Out']").click()
 })
 
-test.only("VTiger Creating Organisation with POM", async({page})=>{
+test("VTiger Creating Organisation with POM", async({page})=>{
     
     const orgName = getOrgName(organization.orgName)
     const loginPage = new LoginPage(page)
