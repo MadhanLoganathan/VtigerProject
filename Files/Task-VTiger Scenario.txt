@@ -1,0 +1,44 @@
+1. Login to vtiger application
+    ->click on organizations link
+    ->click on create organization lookup image
+    ->Enter organisation name
+    ->click on save Btn
+    ->verify whether the organization is created in Organization Information page and Logout from the application.
+
+2. Login to vtiger application
+    ->click on Contacts link
+    ->click on create contact lookup image
+    ->Enter FirstName and LastName
+    ->click on save Btn
+    ->verify whether the Contact is created with firstName and LastName in Contact Information page and Logout from the application.
+
+3. Login to vtiger application
+    ->click on products link
+    ->click on create product lookup image
+    ->Enter product name
+    ->click on save Btn
+    ->verify whether the product is created in product Information page and Logout from the application.
+
+4. Login to vtiger application
+    ->click on Leads link
+    ->click on create lead lookup image
+    ->Enter FirstName,LastName and companyName
+    ->click on save Btn
+    ->verify whether the Lead is created with LastName and CompanyName in Lead Information page and Logout from the application.
+
+5. Login to vtiger application
+    ->mouseOverOn more Link
+    ->click on campaigns
+    ->click on create campaign lookup image
+    ->Enter campaignName
+    ->click on save Btn
+    ->verify whether the campaign is created in campaign Information page and Logout from the application.
+
+6. Login to vtiger application
+    ->click on organizations link
+    ->click on create organization lookup image
+    ->Enter organisation name
+    ->select industry from industry dropdown
+    ->select type from type dropdown
+    ->click on save Btn
+    ->verify whether the organization is created in Organization Information page and Logout from the application.
