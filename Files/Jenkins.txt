@@ -1,0 +1,16 @@
+STEP-BY-STEP: Create Freestyle Job 
+1.Create Job Jenkins Dashboard → Click New Item Enter: Any name on your own Select: Freestyle project Click OK ________________________________________ 
+STEP 2: Connect GitHub Repo Scroll to Source Code Management Select: ✅ Git Paste your repo URL: https://github.com/................./ Vtiger.git Branch: */main ________________________________________ 
+STEP 3: Build Steps Scroll to Build Section Click: Add build step → Execute Windows batch command ________________________________________ 
+    Add Step 1: Install Dependencies -> npm install ________________________________________ 
+    Add Step 2: Install Playwright Browsers Click again → Add another batch step: -> npx playwright install ________________________________________ 
+    Add Step 3: Run Tests Add another step: -> npx playwright test ________________________________________ 
+STEP 4: Publish HTML Report Now your plugin will be used Scroll to: -> Post-build Actions Click: -> Add post-build action Select: -> Publish HTML reports ________________________________________ 
+STEP 5: Save Job  Click Save ________________________________________ 
+STEP 6: Run Build Click Build Now ________________________________________ 
+
+What will happen 
+1. Jenkins pulls code 
+2. Runs: o npm install o playwright install o tests 
+3. Generates report 
+4. Shows HTML report link in Jenkins UI
