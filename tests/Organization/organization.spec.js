@@ -67,7 +67,6 @@ import organization from '../../testData/organization.json'
 // })
 
 test("VTiger Creating Organisation with POM", async({page})=>{
-    
     const orgName = getOrgName(organization.orgName)
     const loginPage = new LoginPage(page)
     const homePage = new HomePage(page)
