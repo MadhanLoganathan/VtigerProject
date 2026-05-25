@@ -12,7 +12,10 @@
 •	        stage('Run Tests') {
 •	            steps {
 •	                script {
-•	                    def status = bat(script: 'npx playwright test', returnStatus: true)
+•	                    def status = bat(
+                            script: 'npx playwright test', 
+                            returnStatus: true
+                        )
 •	                    if (status != 0) {
 •	                        echo "Tests failed, but continuing to generate reports..."
 •	                    }
@@ -34,9 +37,7 @@
 •	                 alwaysLinkToLastBuild: true,
 •	                allowMissing: true,
 •	                linkRelative: false
-•	            ])
-•	
-•	        
+•	            ])      
 •	        }
 •	    }
 •	}
