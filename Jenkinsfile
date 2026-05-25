@@ -12,7 +12,7 @@
 •	        stage('Run Tests') {
 •	            steps {
 •	                script {
-•	                    def status = bat(
+•	                    int status = bat(
                             script: 'npx playwright test', 
                             returnStatus: true
                         )
